@@ -11,6 +11,9 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 import { Toaster } from "@/components/ui/sonner";
 import React from "react";
 
+// Disable static generation to avoid build errors when no deployments are configured
+export const dynamic = 'force-dynamic';
+
 /**
  * The /tools page.
  * Contains the list of tools the user has access to.
