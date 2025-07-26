@@ -2,6 +2,7 @@
   "buildCommand": "yarn build",
   "installCommand": "yarn install",
   "framework": "nextjs",
+  "rootDirectory": "apps/web",
   "functions": {
     "apps/web/src/app/api/**/*.ts": {
       "runtime": "nodejs18.x"
