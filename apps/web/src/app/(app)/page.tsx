@@ -6,6 +6,9 @@ import { Toaster } from "@/components/ui/sonner";
 import React from "react";
 import { ChatBreadcrumb } from "@/features/chat/components/chat-breadcrumb";
 
+// Disable static generation to avoid build errors when no deployments are configured
+export const dynamic = 'force-dynamic';
+
 /**
  * The default page (/).
  * Contains the generic chat interface.

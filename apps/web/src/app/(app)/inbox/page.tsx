@@ -14,6 +14,9 @@ import {
   BreadcrumbPage,
 } from "@/components/ui/breadcrumb";
 
+// Disable static generation to avoid build errors when no deployments are configured
+export const dynamic = 'force-dynamic';
+
 export default function InboxPage(): React.ReactNode {
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
