@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd apps/web && yarn build",
+  "buildCommand": "yarn workspace @open-agent-platform/web build",
   "installCommand": "yarn install",
   "framework": "nextjs"
 } 
