@@ -1,6 +1,5 @@
 {
-  "buildCommand": "yarn workspace @open-agent-platform/web build",
-  "installCommand": "yarn install",
-  "framework": "nextjs",
-  "outputDirectory": "apps/web/.next"
+  "buildCommand": "cd apps/web && yarn install && yarn build",
+  "installCommand": "echo 'Skipping root install'",
+  "framework": "nextjs"
 } 
