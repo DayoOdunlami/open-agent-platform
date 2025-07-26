@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd /vercel/path0/apps/web && yarn install && npx next build",
+  "buildCommand": "cd /vercel/path0/apps/web && yarn install --frozen-lockfile && yarn build",
   "installCommand": "yarn install",
   "framework": "nextjs"
 } 
