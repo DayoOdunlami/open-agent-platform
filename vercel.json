@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd apps/web && yarn install && yarn build",
+  "buildCommand": "cd /vercel/path0/apps/web && yarn install && yarn build",
   "installCommand": "yarn install",
   "framework": "nextjs"
 } 
