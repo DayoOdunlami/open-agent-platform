@@ -1,6 +1,18 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "globalDependencies": ["**/.env"],
+  "globalEnv": [
+    "NEXT_PUBLIC_SUPABASE_URL",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+    "NEXT_PUBLIC_BASE_API_URL",
+    "SUPABASE_SERVICE_ROLE_KEY",
+    "NEXT_PUBLIC_DEPLOYMENTS",
+    "NEXT_PUBLIC_RAG_API_URL",
+    "NEXT_PUBLIC_MCP_SERVER_URL",
+    "NEXT_PUBLIC_MCP_AUTH_REQUIRED",
+    "NEXT_PUBLIC_USE_LANGSMITH_AUTH",
+    "LANGSMITH_API_KEY"
+  ],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
