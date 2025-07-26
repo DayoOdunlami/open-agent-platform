@@ -1,5 +1,6 @@
 {
   "buildCommand": "cd /vercel/path0/apps/web && yarn install --frozen-lockfile && yarn build",
   "installCommand": "yarn install",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "outputDirectory": "apps/web/.next"
 } 
